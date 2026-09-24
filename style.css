@@ -71,6 +71,7 @@ body {
 }
 
 .searchbox input {
+    width: 100%;
     border: none;
     outline: none;
     background-color: #ebfffccc;
@@ -109,6 +110,7 @@ body {
 }
 
 .details {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -163,4 +165,34 @@ body {
 .footer p {
     text-decoration: none;
     color: #fff;
+}
+
+.humidity-details {
+    width: 100%;
+}
+
+.wind-details {
+    width: 100%;
+}
+
+.sm-icon {
+    width: 100%;
+}
+
+@media screen and (max-width: 404px) {
+    .col {
+    width: 50%;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 8px;
+}
+
+    .details {
+        column-gap: 8px;
+    
+    }
+
+    #value {
+        font-size: 14px;
+    }
 }
