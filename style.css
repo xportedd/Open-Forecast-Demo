@@ -106,7 +106,6 @@ body {
 .weather h2 {
     font-size: 32px;
     font-weight: normal;
-    margin-bottom: 16px;
 }
 
 .details {
@@ -186,9 +185,34 @@ body {
 
     .details {
         column-gap: 8px;
+        margin-top: 24px;
     }
 
     .second-details {
         font-size: 14px;
+    }
+
+    .weather-icon {
+        width: 120px;
+    }
+
+    .weather h1 {
+        font-size: 40px;
+    }
+
+    .weather h2 {
+        font-size: 24px;
+    }
+
+    .card {
+        padding: 32px 24px;
+    }
+
+    .header {
+        margin-bottom: 24px;
+    }
+
+    .header h1 {
+        font-size: 32px;
     }
 }
