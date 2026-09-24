@@ -167,19 +167,16 @@ body {
     color: #fff;
 }
 
-.humidity-details {
+.second-details {
     width: 100%;
-}
-
-.wind-details {
-    width: 100%;
+    font-size: 16px;
 }
 
 .sm-icon {
     width: 100%;
 }
 
-@media screen and (max-width: 404px) {
+@media screen and (max-width: 470px) {
     .col {
     width: 50%;
     flex-wrap: wrap;
@@ -189,10 +186,9 @@ body {
 
     .details {
         column-gap: 8px;
-    
     }
 
-    #value {
+    .second-details {
         font-size: 14px;
     }
 }

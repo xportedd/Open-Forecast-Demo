@@ -18,7 +18,7 @@ async function checkWeather(city){
     document.querySelector(".city").innerHTML = data.name + ", " + data.sys.country;
     document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
-    document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
+    document.querySelector(".wind").innerHTML = Math.round(data.wind.speed) + " km/h";
 
     if(data.weather[0].main == "Clouds"){
         weatherIcon.src = "https://cdn.meteocons.com/3.0.0-next.10/svg/fill/cloudy.svg"
