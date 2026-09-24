@@ -194,6 +194,7 @@ body {
 
     .weather-icon {
         width: 120px;
+        height: 120px;
     }
 
     .weather h1 {
